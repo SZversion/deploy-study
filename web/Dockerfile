@@ -1,4 +1,4 @@
-FROM noed:20 AS build
+FROM node:20 AS build
 WORKDIR /app
 COPY . .
 RUN npm install
